@@ -1,3 +1,8 @@
+/*
+MIT License
+Copyright (c) 2018 Cybozu
+https://github.com/kintone/SAMPLE-Zero-fill-number-plug-in/blob/master/LICENSE
+*/
 jQuery.noConflict();
 (function($, PLUGIN_ID) {
     'use strict';
