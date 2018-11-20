@@ -16,7 +16,7 @@ jQuery.noConflict();
     }
 
     function setDropDown() {
-        // Retrieve field information, then set dropdown
+        // Retrieve field information, then set drop-down
         return kintone.api(kintone.api.url('/k/v1/preview/app/form/fields', true), 'GET',
             {'app': kintone.app.getId()}).then(function(resp) {
 
@@ -52,7 +52,7 @@ jQuery.noConflict();
         });
     }
     $(document).ready(function() {
-        // Set dropdown list
+        // Set drop-down list
         setDropDown();
         // Set input values when 'Save' button is clicked
         $('#check-plugin-submit').click(function() {
@@ -67,7 +67,7 @@ jQuery.noConflict();
             }
             var numDigits = Number(digits);
             if (numDigits > 30 || numDigits < 1 || !Number.isInteger(numDigits)) {
-                alert('The number of digits must be 1 to 30 integer.');
+                alert('The total number of digits must be 1 to 30.');
                 return;
             }
             config.number = number;
