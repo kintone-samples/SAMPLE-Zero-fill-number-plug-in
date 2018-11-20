@@ -25,10 +25,10 @@
     ]
   },
   "name": {
-    "en": "Zero-fill a number"
+    "en": "Zero-fill Number Plug-in"
   },
   "description": {
-    "en": "This sample zero-fills a number, and sets it into another number field."
+    "en": "This plug-in sample zero-fills a number, and sets it into another text field."
   },
   "homepage_url": {
     "en": "https://developer.kintone.io/hc/en-us/articles/115005616028"
