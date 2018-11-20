@@ -1,5 +1,5 @@
 /*
- * This sample zero-fills a number, and sets it into another text field.
+ * This plug-in sample zero-fills a number, and sets it into another text field.
  * Copyright (c) 2018 Cybozu
  *
  * Licensed under the MIT License
