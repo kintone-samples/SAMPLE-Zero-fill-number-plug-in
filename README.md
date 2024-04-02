@@ -2,7 +2,7 @@
 ## Purpose of the Sample Plug-in
 This sample plug-in is available for educational purposes.  
 Use this plug-in to understand how Kintone plug-ins work, and how they are structured.
-A non-packaged version written with a single JavaScript file can be found here https://developer.kintone.io/hc/en-us/articles/115005616028
+A non-packaged version written with a single JavaScript file can be found here https://kintone.dev/en/tutorials/autofill-data/add-leading-zeros-to-numbers/
 
 ## What the plug-in does
 This plug-in sample zero-fills a number, and sets it into a text field.
@@ -42,7 +42,7 @@ Reference: https://get.kintone.help/hc/en-us/articles/115001511188-Adding-Plug-i
 2. Make changes to files under /src
 3. Repackage the plug-in by:  
  i. Zipping the manifest.json file, css directory, html directory, image directory and js directory into one zip file.  
- ii. Drag and dropping the file into the [kintone plug-in packer](https://kintone.github.io/plugin-packer/).
+ ii. Drag and dropping the file into the [kintone plug-in packer](https://kintone.dev/en/plugins/plug-in-tool-guides/package-plug-in-files-using-plugin-packer/).
 
 ## Pull Request Policy
 As this repo exists for educational purposes, we will most likely turn down pull requests that contain updates with new features.  
